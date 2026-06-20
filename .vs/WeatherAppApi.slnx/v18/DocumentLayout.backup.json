@@ -3,20 +3,56 @@
   "WorkspaceRootPath": "D:\\Anuj Projects\\VS2026_Project\\WPF_Project\\WeatherAppApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C3C039B1-6EF3-E0BC-AD52-DB140F009818}|WeatherAppApi.csproj|d:\\anuj projects\\vs2026_project\\wpf_project\\weatherappapi\\services\\aiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3C039B1-6EF3-E0BC-AD52-DB140F009818}|WeatherAppApi.csproj|solutionrelative:services\\aiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C3C039B1-6EF3-E0BC-AD52-DB140F009818}|WeatherAppApi.csproj|d:\\anuj projects\\vs2026_project\\wpf_project\\weatherappapi\\views\\weatherview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C3C039B1-6EF3-E0BC-AD52-DB140F009818}|WeatherAppApi.csproj|solutionrelative:views\\weatherview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C039B1-6EF3-E0BC-AD52-DB140F009818}|WeatherAppApi.csproj|d:\\anuj projects\\vs2026_project\\wpf_project\\weatherappapi\\viewmodels\\weatherviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C039B1-6EF3-E0BC-AD52-DB140F009818}|WeatherAppApi.csproj|solutionrelative:viewmodels\\weatherviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C3C039B1-6EF3-E0BC-AD52-DB140F009818}|WeatherAppApi.csproj|d:\\anuj projects\\vs2026_project\\wpf_project\\weatherappapi\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3C039B1-6EF3-E0BC-AD52-DB140F009818}|WeatherAppApi.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C3C039B1-6EF3-E0BC-AD52-DB140F009818}|WeatherAppApi.csproj|d:\\anuj projects\\vs2026_project\\wpf_project\\weatherappapi\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C3C039B1-6EF3-E0BC-AD52-DB140F009818}|WeatherAppApi.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C039B1-6EF3-E0BC-AD52-DB140F009818}|WeatherAppApi.csproj|d:\\anuj projects\\vs2026_project\\wpf_project\\weatherappapi\\views\\weatherview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C039B1-6EF3-E0BC-AD52-DB140F009818}|WeatherAppApi.csproj|solutionrelative:views\\weatherview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C039B1-6EF3-E0BC-AD52-DB140F009818}|WeatherAppApi.csproj|d:\\anuj projects\\vs2026_project\\wpf_project\\weatherappapi\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C039B1-6EF3-E0BC-AD52-DB140F009818}|WeatherAppApi.csproj|solutionrelative:commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C039B1-6EF3-E0BC-AD52-DB140F009818}|WeatherAppApi.csproj|d:\\anuj projects\\vs2026_project\\wpf_project\\weatherappapi\\weatherappapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C3C039B1-6EF3-E0BC-AD52-DB140F009818}|WeatherAppApi.csproj|solutionrelative:weatherappapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C3C039B1-6EF3-E0BC-AD52-DB140F009818}|WeatherAppApi.csproj|d:\\anuj projects\\vs2026_project\\wpf_project\\weatherappapi\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3C039B1-6EF3-E0BC-AD52-DB140F009818}|WeatherAppApi.csproj|solutionrelative:services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3C039B1-6EF3-E0BC-AD52-DB140F009818}|WeatherAppApi.csproj|d:\\anuj projects\\vs2026_project\\wpf_project\\weatherappapi\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C3C039B1-6EF3-E0BC-AD52-DB140F009818}|WeatherAppApi.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C3C039B1-6EF3-E0BC-AD52-DB140F009818}|WeatherAppApi.csproj|d:\\anuj projects\\vs2026_project\\wpf_project\\weatherappapi\\model\\weathermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C039B1-6EF3-E0BC-AD52-DB140F009818}|WeatherAppApi.csproj|solutionrelative:model\\weathermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C039B1-6EF3-E0BC-AD52-DB140F009818}|WeatherAppApi.csproj|d:\\anuj projects\\vs2026_project\\wpf_project\\weatherappapi\\viewmodels\\chatmessageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C039B1-6EF3-E0BC-AD52-DB140F009818}|WeatherAppApi.csproj|solutionrelative:viewmodels\\chatmessageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C039B1-6EF3-E0BC-AD52-DB140F009818}|WeatherAppApi.csproj|d:\\anuj projects\\vs2026_project\\wpf_project\\weatherappapi\\views\\chatmessageview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C3C039B1-6EF3-E0BC-AD52-DB140F009818}|WeatherAppApi.csproj|solutionrelative:views\\chatmessageview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C039B1-6EF3-E0BC-AD52-DB140F009818}|WeatherAppApi.csproj|d:\\anuj projects\\vs2026_project\\wpf_project\\weatherappapi\\model\\chatmessagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C039B1-6EF3-E0BC-AD52-DB140F009818}|WeatherAppApi.csproj|solutionrelative:model\\chatmessagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C039B1-6EF3-E0BC-AD52-DB140F009818}|WeatherAppApi.csproj|d:\\anuj projects\\vs2026_project\\wpf_project\\weatherappapi\\services\\aiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C039B1-6EF3-E0BC-AD52-DB140F009818}|WeatherAppApi.csproj|solutionrelative:services\\aiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,32 +62,70 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ApiService.cs",
-              "DocumentMoniker": "D:\\Anuj Projects\\VS2026_Project\\WPF_Project\\WeatherAppApi\\Services\\ApiService.cs",
-              "RelativeDocumentMoniker": "Services\\ApiService.cs",
-              "ToolTip": "D:\\Anuj Projects\\VS2026_Project\\WPF_Project\\WeatherAppApi\\Services\\ApiService.cs",
-              "RelativeToolTip": "Services\\ApiService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA+AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "WeatherViewModel.cs",
+              "DocumentMoniker": "D:\\Anuj Projects\\VS2026_Project\\WPF_Project\\WeatherAppApi\\ViewModels\\WeatherViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\WeatherViewModel.cs",
+              "ToolTip": "D:\\Anuj Projects\\VS2026_Project\\WPF_Project\\WeatherAppApi\\ViewModels\\WeatherViewModel.cs",
+              "RelativeToolTip": "ViewModels\\WeatherViewModel.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAswE0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-15T17:56:23.726Z",
+              "WhenOpened": "2026-06-20T18:56:08.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Anuj Projects\\VS2026_Project\\WPF_Project\\WeatherAppApi\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "D:\\Anuj Projects\\VS2026_Project\\WPF_Project\\WeatherAppApi\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAAEcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T17:35:56.472Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AiService.cs",
-              "DocumentMoniker": "D:\\Anuj Projects\\VS2026_Project\\WPF_Project\\WeatherAppApi\\Services\\AiService.cs",
-              "RelativeDocumentMoniker": "Services\\AiService.cs",
-              "ToolTip": "D:\\Anuj Projects\\VS2026_Project\\WPF_Project\\WeatherAppApi\\Services\\AiService.cs",
-              "RelativeToolTip": "Services\\AiService.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwB0AAAAkAAAAAAAAAA==",
+              "Title": "WeatherView.xaml",
+              "DocumentMoniker": "D:\\Anuj Projects\\VS2026_Project\\WPF_Project\\WeatherAppApi\\Views\\WeatherView.xaml",
+              "RelativeDocumentMoniker": "Views\\WeatherView.xaml",
+              "ToolTip": "D:\\Anuj Projects\\VS2026_Project\\WPF_Project\\WeatherAppApi\\Views\\WeatherView.xaml",
+              "RelativeToolTip": "Views\\WeatherView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-20T18:25:57.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "D:\\Anuj Projects\\VS2026_Project\\WPF_Project\\WeatherAppApi\\Commands\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "Commands\\RelayCommand.cs",
+              "ToolTip": "D:\\Anuj Projects\\VS2026_Project\\WPF_Project\\WeatherAppApi\\Commands\\RelayCommand.cs",
+              "RelativeToolTip": "Commands\\RelayCommand.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-15T17:56:02.879Z",
+              "WhenOpened": "2026-06-20T19:41:34.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeatherView.xaml.cs",
+              "DocumentMoniker": "D:\\Anuj Projects\\VS2026_Project\\WPF_Project\\WeatherAppApi\\Views\\WeatherView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\WeatherView.xaml.cs",
+              "ToolTip": "D:\\Anuj Projects\\VS2026_Project\\WPF_Project\\WeatherAppApi\\Views\\WeatherView.xaml.cs",
+              "RelativeToolTip": "Views\\WeatherView.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-20T20:01:45.711Z",
               "EditorCaption": ""
             },
             {
@@ -68,15 +142,92 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\Anuj Projects\\VS2026_Project\\WPF_Project\\WeatherAppApi\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "D:\\Anuj Projects\\VS2026_Project\\WPF_Project\\WeatherAppApi\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "D:\\Anuj Projects\\VS2026_Project\\WPF_Project\\WeatherAppApi\\Services\\ApiService.cs",
+              "RelativeDocumentMoniker": "Services\\ApiService.cs",
+              "ToolTip": "D:\\Anuj Projects\\VS2026_Project\\WPF_Project\\WeatherAppApi\\Services\\ApiService.cs",
+              "RelativeToolTip": "Services\\ApiService.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAUwE8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-15T17:35:56.472Z",
+              "WhenOpened": "2026-06-15T17:56:23.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WeatherModel.cs",
+              "DocumentMoniker": "D:\\Anuj Projects\\VS2026_Project\\WPF_Project\\WeatherAppApi\\Model\\WeatherModel.cs",
+              "RelativeDocumentMoniker": "Model\\WeatherModel.cs",
+              "ToolTip": "D:\\Anuj Projects\\VS2026_Project\\WPF_Project\\WeatherAppApi\\Model\\WeatherModel.cs",
+              "RelativeToolTip": "Model\\WeatherModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-20T18:00:31.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WeatherAppApi",
+              "DocumentMoniker": "D:\\Anuj Projects\\VS2026_Project\\WPF_Project\\WeatherAppApi\\WeatherAppApi.csproj",
+              "RelativeDocumentMoniker": "WeatherAppApi.csproj",
+              "ToolTip": "D:\\Anuj Projects\\VS2026_Project\\WPF_Project\\WeatherAppApi\\WeatherAppApi.csproj",
+              "RelativeToolTip": "WeatherAppApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-20T17:56:37.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ChatMessageViewModel.cs",
+              "DocumentMoniker": "D:\\Anuj Projects\\VS2026_Project\\WPF_Project\\WeatherAppApi\\ViewModels\\ChatMessageViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ChatMessageViewModel.cs",
+              "ToolTip": "D:\\Anuj Projects\\VS2026_Project\\WPF_Project\\WeatherAppApi\\ViewModels\\ChatMessageViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ChatMessageViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-20T18:56:29.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ChatMessageView.xaml",
+              "DocumentMoniker": "D:\\Anuj Projects\\VS2026_Project\\WPF_Project\\WeatherAppApi\\Views\\ChatMessageView.xaml",
+              "RelativeDocumentMoniker": "Views\\ChatMessageView.xaml",
+              "ToolTip": "D:\\Anuj Projects\\VS2026_Project\\WPF_Project\\WeatherAppApi\\Views\\ChatMessageView.xaml",
+              "RelativeToolTip": "Views\\ChatMessageView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-20T18:26:17.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ChatMessageModel.cs",
+              "DocumentMoniker": "D:\\Anuj Projects\\VS2026_Project\\WPF_Project\\WeatherAppApi\\Model\\ChatMessageModel.cs",
+              "RelativeDocumentMoniker": "Model\\ChatMessageModel.cs",
+              "ToolTip": "D:\\Anuj Projects\\VS2026_Project\\WPF_Project\\WeatherAppApi\\Model\\ChatMessageModel.cs",
+              "RelativeToolTip": "Model\\ChatMessageModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-20T18:02:20.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AiService.cs",
+              "DocumentMoniker": "D:\\Anuj Projects\\VS2026_Project\\WPF_Project\\WeatherAppApi\\Services\\AiService.cs",
+              "RelativeDocumentMoniker": "Services\\AiService.cs",
+              "ToolTip": "D:\\Anuj Projects\\VS2026_Project\\WPF_Project\\WeatherAppApi\\Services\\AiService.cs",
+              "RelativeToolTip": "Services\\AiService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwBsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T17:56:02.879Z",
               "EditorCaption": ""
             }
           ]

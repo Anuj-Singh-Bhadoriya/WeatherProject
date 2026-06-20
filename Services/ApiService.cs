@@ -1,5 +1,6 @@
 ﻿using System.Net.Http;
 using System.Text.Json;
+using WeatherAppApi.Model;
 
 namespace WeatherAppApi.Services
 {
@@ -15,7 +16,7 @@ namespace WeatherAppApi.Services
             _httpClient = new HttpClient();
         }
 
-        public async Task<string> GetWeatherAsync(string city)
+        public async Task<String> GetWeatherAsync(string city)
         {
             string url =
                 $"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={ApiKey}&units=metric";
@@ -42,6 +43,41 @@ namespace WeatherAppApi.Services
             return $"🌡 Temperature: {temp}°C\n" +
                    $"💧 Humidity: {humidity}%\n" +
                    $"☁ Condition: {condition}";
+
+
+        }
+
+        public async Task<WeatherModel> GetWeatherAsync1(string city)
+        {
+            string url =
+                $"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={ApiKey}&units=metric";
+
+            string json = await _httpClient.GetStringAsync(url);
+
+            using JsonDocument doc = JsonDocument.Parse(json);
+
+            WeatherModel weather = new WeatherModel();
+
+            weather.City = city;
+
+            weather.Celsius_Temp = doc.RootElement
+                             .GetProperty("main")
+                             .GetProperty("temp")
+                             .GetDouble();
+
+            weather.Humidity = doc.RootElement
+                              .GetProperty("main")
+                              .GetProperty("humidity")
+                              .GetInt32();
+
+          weather.Condition = doc.RootElement
+                                  .GetProperty("weather")[0]
+                                  .GetProperty("description")
+                                  .GetString() ?? "";
+
+            return weather;
+
+
         }
     }
 }

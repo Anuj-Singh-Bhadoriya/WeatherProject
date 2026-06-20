@@ -22,51 +22,51 @@ namespace WeatherAppApi
             InitializeComponent();
         }
 
-        private async void Button_Click(object sender, RoutedEventArgs e)
-        {
-            try
-            {
-                ApiService apiService = new ApiService();
+        //private async void Button_Click(object sender, RoutedEventArgs e)
+        //{
+        //    try
+        //    {
+        //        ApiService apiService = new ApiService();
 
-                string city = txtPrompt.Text;
+        //        string city = txtPrompt.Text;
 
-                WeatherList.Items.Clear();
+        //        WeatherList.Items.Clear();
 
-                WeatherList.Items.Add($"👤 City: {city}");
+        //        WeatherList.Items.Add($"👤 City: {city}");
 
-                string weather =
-                    await apiService.GetWeatherAsync(city);
+        //        string weather =
+        //            await apiService.GetWeatherAsync(city);
 
-                WeatherList.Items.Add($"🌤 Weather: {weather}");
+        //        WeatherList.Items.Add($"🌤 Weather: {weather}");
 
-                AiService aiService = new AiService();
+        //        AiService aiService = new AiService();
 
-                string prompt =
-                $"""
-        Weather in {city}: {weather}
+        //        string prompt =
+        //        $"""
+        //Weather in {city}: {weather}
 
-        Give 2 lines of advice.
-        """;
+        //Give 2 lines of advice.
+        //""";
 
-                ChatList.Items.Add($"👤 Ask: Weather advice for {city}");
+        //        ChatList.Items.Add($"👤 Ask: Weather advice for {city}");
 
-                var Start = DateTime.Now;
-                string answer =
-                    await aiService.AskAsync(prompt);
-                var End = DateTime.Now;
-                MessageBox.Show($"AI Time : {(End - Start).TotalSeconds} sec");
+        //        var Start = DateTime.Now;
+        //        string answer =
+        //            await aiService.AskAsync(prompt);
+        //        var End = DateTime.Now;
+        //        MessageBox.Show($"AI Time : {(End - Start).TotalSeconds} sec");
 
-                ChatList.Items.Add($"🤖 AI: {answer}");
+        //        ChatList.Items.Add($"🤖 AI: {answer}");
 
-                ChatList.ScrollIntoView(
-                    ChatList.Items[ChatList.Items.Count - 1]);
+        //        ChatList.ScrollIntoView(
+        //            ChatList.Items[ChatList.Items.Count - 1]);
 
-                txtPrompt.Clear();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-        }
+        //        txtPrompt.Clear();
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        MessageBox.Show(ex.Message);
+        //    }
+        //}
     }
 }

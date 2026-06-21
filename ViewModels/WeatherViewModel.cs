@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 using System.Windows.Input;
 using System.Windows.Navigation;
 using WeatherAppApi.Commands;
@@ -17,11 +18,19 @@ namespace WeatherAppApi.ViewModels
         public event PropertyChangedEventHandler? PropertyChanged;
 
         private readonly ApiService _apiService;
+        //private readonly AiService _aiService;
+        private readonly ChatMessageViewModel _chatMVM;
         public ICommand GetWeatherCommand { get; }
 
-        public WeatherViewModel() {
+        public WeatherViewModel(ChatMessageViewModel ChatMVM) {
+            MessageBox.Show("WeatherViewModel Created");
+            _chatMVM = ChatMVM;
             _apiService = new ApiService();
-            GetWeatherCommand = new RelayCommand(() => _ = CityWeatherDetails(City));
+         
+            GetWeatherCommand = new RelayCommand(() => {
+                MessageBox.Show("Button Clicked");
+                _ = CityWeatherDetails(City);
+                });
         }
         private String? _city;
         public string? City
@@ -69,6 +78,17 @@ namespace WeatherAppApi.ViewModels
 
             }
         }
+        private String? _aiResponse;
+        public String? AiResponse
+        {
+            get => _aiResponse;
+            set
+            {
+                if (AiResponse == value) return;
+                AiResponse = value;
+                OnPropertyChanged(nameof(AiResponse));
+            }
+        }
          
        
        
@@ -82,7 +102,9 @@ namespace WeatherAppApi.ViewModels
             Temperature = weather.Celsius_Temp;
             Condition = weather.Condition;
             City = city;
-            
+
+
+            _chatMVM.Message = await _chatMVM.ProcessWeather(weather);
 
         }
 

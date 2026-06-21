@@ -24,7 +24,7 @@ namespace WeatherAppApi.Views
         public WeatherView()
         {
             InitializeComponent();
-            DataContext = new WeatherViewModel();
+          
         }
     }
 }

@@ -25,16 +25,16 @@
                     <ListBoxItem>
                         <StackPanel Margin="5">
 
-                            <TextBlock Text="👤 User"
+                            <TextBlock Text="👤User"
                                        FontWeight="Bold"/>
 
-                            <TextBlock Text="Delhi"
+                            <TextBlock Text="{Binding CityWeather}"
                                        Margin="20,5,0,10"/>
 
-                            <TextBlock Text="🤖 AI"
+                            <TextBlock Text="{Binding Sender, StringFormat = 🤖{0}}"
                                        FontWeight="Bold"/>
 
-                            <TextBlock Text="The weather in Delhi is hot and sunny. Stay hydrated and avoid prolonged exposure to direct sunlight."
+                            <TextBlock Text="{Binding Message}"
                                        TextWrapping="Wrap"
                                        Margin="20,5,0,10"/>
 

@@ -18,38 +18,17 @@
         
         <!-- Left Panel -->
         <StackPanel Grid.Column="0">
-            <views:WeatherView  />
+            <views:WeatherView DataContext="{Binding WeatherVM}" />
 
-            <!--<TextBlock Text="Enter City"
-                       FontWeight="Bold"
-                       Margin="0,0,0,5"/>
-
-            <TextBox x:Name="txtPrompt"
-                     Height="30"
-                     Margin="0,0,0,10"/>
-
-            <Button Content="Get Weather"
-                    Height="35"
-                    Click="Button_Click"/>
-
-            <TextBlock Text="Weather API Response"
-                       FontWeight="Bold"
-                       Margin="0,20,0,5"/>
-
-            <ListBox x:Name="WeatherList"
-                     Height="350"/>-->
+          
         </StackPanel>
 
         <!-- Right Panel -->
         <StackPanel Grid.Column="1"
-                    Margin="10,0,0,0">
+                    Margin="5,0,0,0">
+            <views:ChatMessageView DataContext="{Binding ChatMessageVM}"/>
 
-            <TextBlock Text="AI Chat"
-                       FontWeight="Bold"
-                       Margin="0,0,0,5"/>
-
-            <ListBox x:Name="ChatList"
-                     Height="500"/>
+            
         </StackPanel>
 
     </Grid>

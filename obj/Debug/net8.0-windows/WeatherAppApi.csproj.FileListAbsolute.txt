@@ -40,7 +40,6 @@ D:\Anuj Projects\VS2026_Project\WPF_Project\WeatherAppApi\bin\Debug\net8.0-windo
 D:\Anuj Projects\VS2026_Project\WPF_Project\WeatherAppApi\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 D:\Anuj Projects\VS2026_Project\WPF_Project\WeatherAppApi\obj\Debug\net8.0-windows\WeatherAppApi.csproj.AssemblyReference.cache
 D:\Anuj Projects\VS2026_Project\WPF_Project\WeatherAppApi\obj\Debug\net8.0-windows\Views\ChatMessageView.baml
-D:\Anuj Projects\VS2026_Project\WPF_Project\WeatherAppApi\obj\Debug\net8.0-windows\Views\WeatherView.baml
 D:\Anuj Projects\VS2026_Project\WPF_Project\WeatherAppApi\obj\Debug\net8.0-windows\MainWindow.g.cs
 D:\Anuj Projects\VS2026_Project\WPF_Project\WeatherAppApi\obj\Debug\net8.0-windows\Views\ChatMessageView.g.cs
 D:\Anuj Projects\VS2026_Project\WPF_Project\WeatherAppApi\obj\Debug\net8.0-windows\Views\WeatherView.g.cs
@@ -49,6 +48,7 @@ D:\Anuj Projects\VS2026_Project\WPF_Project\WeatherAppApi\obj\Debug\net8.0-windo
 D:\Anuj Projects\VS2026_Project\WPF_Project\WeatherAppApi\obj\Debug\net8.0-windows\WeatherAppApi_MarkupCompile.cache
 D:\Anuj Projects\VS2026_Project\WPF_Project\WeatherAppApi\obj\Debug\net8.0-windows\WeatherAppApi_MarkupCompile.lref
 D:\Anuj Projects\VS2026_Project\WPF_Project\WeatherAppApi\obj\Debug\net8.0-windows\MainWindow.baml
+D:\Anuj Projects\VS2026_Project\WPF_Project\WeatherAppApi\obj\Debug\net8.0-windows\Views\WeatherView.baml
 D:\Anuj Projects\VS2026_Project\WPF_Project\WeatherAppApi\obj\Debug\net8.0-windows\WeatherAppApi.g.resources
 D:\Anuj Projects\VS2026_Project\WPF_Project\WeatherAppApi\obj\Debug\net8.0-windows\WeatherAppApi.GeneratedMSBuildEditorConfig.editorconfig
 D:\Anuj Projects\VS2026_Project\WPF_Project\WeatherAppApi\obj\Debug\net8.0-windows\WeatherAppApi.AssemblyInfoInputs.cache

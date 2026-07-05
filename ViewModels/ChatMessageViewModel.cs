@@ -1,10 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 using System.Windows.Input;
+using WeatherAppApi.Commands;
 using WeatherAppApi.Model;
 using WeatherAppApi.Services;
 
@@ -15,10 +18,15 @@ namespace WeatherAppApi.ViewModels
         public event PropertyChangedEventHandler? PropertyChanged;
         private readonly AiService _aiService;
         private ICommand getApiCommand { get; }
+        public ICommand ClearChatCommand { get; }
         
         public ChatMessageViewModel()
         {
             _aiService = new AiService();
+            ClearChatCommand = new RelayCommand(() =>
+            {
+                Messages.Clear();
+            });
             
         }
 
@@ -37,17 +45,9 @@ namespace WeatherAppApi.ViewModels
             }
                 
         }
-        private String? _message;
-        public String? Message
-        {
-            get=> _message;
-            set
-            {
-                if (_message == value) return;
-                _message = value;
-                OnPropertyChanged(nameof(Message));
-            }
-        }
+      
+
+        public ObservableCollection<ChatMessageModel> Messages { get; } = new ObservableCollection<ChatMessageModel>();
         private TimeOnly? _time;
         public TimeOnly? Time
         {
@@ -89,26 +89,30 @@ namespace WeatherAppApi.ViewModels
 
             CityWeather =  $"👤 City: {weather.City}";
 
-            Sender = "AI";
+            String AiResponse = await _aiService.AskAsync(prompt);
 
-            Time = TimeOnly.FromDateTime(DateTime.Now);
+            //Add user entry
+            Messages.Add(new ChatMessageModel
+            {
+                Sender = "User",
+                Message = $"Weather Analysis for {weather.City}",
+                Time = TimeOnly.FromDateTime(DateTime.Now)
+            });
 
-            Message = await _aiService.AskAsync(prompt);
-            return Message;
+            Messages.Add(new ChatMessageModel
+            {
+                Sender = "AI",
+                Message = AiResponse,
+                Time = TimeOnly.FromDateTime(DateTime.Now)
+            });
+
+            return AiResponse;
         }
-        private async Task ConvertWeatherIntoNormalLanguage()
-        {
-            string prompt =
-       $"The weather in {Sender} is {Message}. Explain it in simple language and give advice.";
+      
 
-            string response =
-                await _aiService.AskAsync(prompt);
+      
 
-            Message = response;
-            Time = TimeOnly.FromDateTime(DateTime.Now);
-
-        }
-
+           
         protected void OnPropertyChanged(string propertyName)
         {
             PropertyChanged?.Invoke(
